@@ -6,7 +6,7 @@ function Cat(props) {
   const {text, grear} = props
   
   return (
-    <h1 className = "text-blue-200">My cat is good {grear}</h1>
+    <h1 className = "text-blue-200">My cat is good {grear},{text}</h1>
     
    );
 }
