@@ -1,5 +1,6 @@
 import React from 'react'
 import List from './List'
+import Button from './Button'
 
 function Cat(props) {
   
@@ -17,6 +18,7 @@ const App = () => {
     <div className = "text-3xl text-white">hello</div>
     <Cat text = "guy" grear="man"/>
     <List/>
+    <Button/>
   </>
   )
 }
