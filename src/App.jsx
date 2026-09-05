@@ -20,8 +20,8 @@ const App = () => {
     <Cat text = "guy" grear="man"/>
     <List/>
     <Button/>
-    <FancyButtton>Click me</FancyButtton>
-      <FancyButtton>Submit</FancyButtton>
+    <FancyButtton large={true}>Click me</FancyButtton>
+      <FancyButtton large={false}>Submit</FancyButtton>
   </>
   )
 }
