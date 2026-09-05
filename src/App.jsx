@@ -1,6 +1,7 @@
 import React from 'react'
 import List from './List'
 import Button from './Button'
+import FancyButtton from './FancyButton.jsx'
 
 function Cat(props) {
   
@@ -19,6 +20,8 @@ const App = () => {
     <Cat text = "guy" grear="man"/>
     <List/>
     <Button/>
+    <FancyButtton>Click me</FancyButtton>
+      <FancyButtton>Submit</FancyButtton>
   </>
   )
 }
