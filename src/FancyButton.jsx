@@ -1,22 +1,20 @@
 import React from 'react'
 
-const getStatus = (code) => {
-  if (code === 200) return 'OK';
-  if (code === 404) return 'Not Found';
-  if (code === 500) return 'Server Error';
-  return 'Unknown';
-};
+// const getStatus = (code) => {
+//   if (code === 200) return 'OK';
+//   if (code === 404) return 'Not Found';
+//   if (code === 500) return 'Server Error';
+//   return 'Unknown';
+// };
 
 const FancyButton = (props) => {
-  const {children, large} = props
-  // const mystyle = large? "rounded-lg" : "rounded-full"
-  const mysty = () => {
-    return(
-      if (large) {
-       mystyle = "rounded-lg"
-    }
-    );]hia 
-    }
+const {children, large} = props
+ const mystyle = large? "rounded-lg" : "rounded-full"
+//   const mysty = (large) => {
+//       if (large === true) return mystyle = "rounded-lg";
+        
+//       if (large === false) return mystyle ="rounded-full";
+//     }
   
   return (
     <div>
