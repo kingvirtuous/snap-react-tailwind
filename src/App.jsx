@@ -2,6 +2,7 @@ import React from 'react'
 import List from './List'
 import Button from './Button'
 import FancyButtton from './FancyButton.jsx'
+import Quote1 from './Quote1'
 
 function Cat(props) {
   
@@ -14,6 +15,7 @@ function Cat(props) {
 }
 
 
+
 const App = () => {
   return (<>
     <div className = "text-3xl text-white">hello</div>
@@ -22,6 +24,7 @@ const App = () => {
     <Button/>
     <FancyButtton large={true}>Click me</FancyButtton>
       <FancyButtton large={false}>Submit</FancyButtton>
+    <Quote1/>
   </>
   )
 }
