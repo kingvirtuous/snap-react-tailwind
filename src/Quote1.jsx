@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Quote1 = () => {
+const Quote1 = (props) => {
+  const {meee} = props;
   return (
-    <div>button</div>
+    <div>
+      <div className="text-white">{meee.text}</div>
+    </div>
   )
 }
 
