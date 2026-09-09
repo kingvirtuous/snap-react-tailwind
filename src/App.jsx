@@ -3,6 +3,7 @@ import List from './List'
 import Button from './Button'
 import FancyButtton from './FancyButton.jsx'
 import Quote1 from './Quote1'
+import Quote2 from './Quote2'
 
 function Cat(props) {
   
@@ -47,6 +48,7 @@ const App = () => {
     <FancyButtton large={true}>Click me</FancyButtton>
       <FancyButtton large={false}>Submit</FancyButtton>
     <Quote1 meee={quote1}/>
+    <Quote2 quote={quote2}/>
   </>
   )
 }
