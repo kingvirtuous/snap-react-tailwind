@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Quote2 = (props) => {
   const {quote} = props;
@@ -8,7 +9,9 @@ const Quote2 = (props) => {
         <div className="text-white text-3xl">{quote.author}</div>
         <div className="text-sky-400">{quote.bio}</div>
       </div>
-      <div className="text-white px-4 py-10 border border-white rounded-r-full">{quote.text}</div>
+      
+      <div className="text-white px-4 py-10 border border-l-white rounded-r-full">{quote.text}</div>
+      
     </div>
   )
 }
