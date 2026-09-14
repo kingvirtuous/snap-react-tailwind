@@ -6,6 +6,7 @@ import Quote1 from './Quote1'
 import Quote2 from './Quote2'
 import Quote3 from './Quote3'
 import { useState} from "react";
+import Widget from './Widget'
 
 function Cat(props) {
   
@@ -55,6 +56,7 @@ const App = () => {
     <Quote1 meee={quote1}/>
     <Quote2 quote={quote2}/>
     <Quote3 quote={quote3}></Quote3>
+    <Widget/>
   </>
   )
 }
