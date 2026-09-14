@@ -3,7 +3,7 @@ import React from 'react'
 const Quote2 = (props) => {
   const {quote} = props;
   return (
-    <div className="flex mt-6 p-8"> 
+    <div className="flex justify-center mt-6 p-8"> 
       <div className="bg-blue-700 p-3 rounded-tl-lg rounded-bl-lg">
         <div className="text-white text-3xl">{quote.author}</div>
         <div className="text-sky-400">{quote.bio}</div>

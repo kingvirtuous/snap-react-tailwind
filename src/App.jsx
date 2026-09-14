@@ -5,7 +5,7 @@ import FancyButtton from './FancyButton.jsx'
 import Quote1 from './Quote1'
 import Quote2 from './Quote2'
 import Quote3 from './Quote3'
-
+import { useState} from "react";
 
 function Cat(props) {
   
@@ -39,9 +39,12 @@ const quote3 = {
 
 const App = () => {
 
-  
+  const [message, setMessage] = useState("hello wolrd");
   
   return (<>
+    
+    <div className="text-white">{message}</div>
+    <button  className="text-blue-200 bg-amber-400 rounded-3xl p-3 ml-2.5"type="submit" onClick={() => setMessage("meee")}>hello</button>
     <div className = "text-3xl text-white">great</div>
     <Cat text = "guy" grear="man"/>
     <List/>
